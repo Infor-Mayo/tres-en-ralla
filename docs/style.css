@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border: 5px solid #333;
+}
+
+.board div {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border: 5px solid #333;
+  font-size: 60px;
+  text-align: center;
+  line-height: 90px;
+  cursor: pointer;
+}
+
+.board div:hover {
+  background-color: #eee;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
